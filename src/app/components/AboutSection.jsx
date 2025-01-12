@@ -71,19 +71,19 @@ const AboutSection = () => {
                 selectTab={() => handleTabChange("skills")}
                 active={tab === "skills"}
               >
-                ความสามารถ
+                Skills
               </TabButton>
               <TabButton
                 selectTab={() => handleTabChange("education")}
                 active={tab === "education"}
               >
-                การศึกษา
+                Education
               </TabButton>
               <TabButton
                 selectTab={() => handleTabChange("cert")}
                 active={tab === "cert"}
               >
-                ประสบการณ์
+                Certification
               </TabButton>
             </div>
             <div className="mt-8">
