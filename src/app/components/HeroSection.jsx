@@ -32,7 +32,8 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-lg mb-5 lg:text-xl">
             รหัสนิสิต 6502040074 <br />
-            คณะ บริหารธุระกิจและรัฐประสานศาสตร์ สาขา คอมพิวเตอร์ธุระกิจ
+            คณะ บริหารธุระกิจและรัฐประสานศาสตร์ สาขา คอมพิวเตอร์ธุระกิจ <br />
+            มหาวิทยาลัยเวสเทิร์น
           </p>
           <div>
             <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
@@ -40,8 +41,7 @@ const HeroSection = () => {
             </button>
             <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-transparent  hover:bg-slate-200 text-white mt-3 ">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                {" "}
-                Download
+                Download CV
               </span>
             </button>
           </div>

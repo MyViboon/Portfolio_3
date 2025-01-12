@@ -12,8 +12,12 @@ const Navbar = () => {
       part: "#about",
     },
     {
-      title: "โครการ",
+      title: "Project",
       part: "#project",
+    },
+    {
+      title: "ใบประกาศ",
+      part: "#cert",
     },
     {
       title: "ติดต่อ",
