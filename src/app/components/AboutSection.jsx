@@ -52,11 +52,13 @@ const AboutSection = () => {
   return (
     <section className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src={"/images/about.png"} alt="about" width={500} height={500} />
+        <Image src={"/images/about.png"} alt="about" width={400} height={400} />
         <div>
           <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-            <h2>เกี่ยวกับ ตัวฉัน</h2>
-            <p>
+            <h2 className="text-4xl font-bold text-white mb-4">
+              เกี่ยวกับ ตัวฉัน
+            </h2>
+            <p className="text-base lg:text-lg">
               ผมคือช่าง เทคนิค บริษัท เพ็นทินัม มีความสามารถในการ
               ซ่อมคอมพิวเตอร์ และเครื่องปริ๊นเตอร์
               แก้ไขปัญหาให้มีการใช้งานได้ปกติ มีประสพการด้านการทำงานในสาขานี้ 5
@@ -83,7 +85,7 @@ const AboutSection = () => {
                 selectTab={() => handleTabChange("cert")}
                 active={tab === "cert"}
               >
-                Certification
+                Experience
               </TabButton>
             </div>
             <div className="mt-8">
