@@ -11,7 +11,10 @@ export async function POST() {
       subject: "Hello world",
       react: (
         <>
-          <p>Email Body</p>
+          <h1>{subject}</h1>
+          <p>Thank you for contacting us!</p>
+          <p>New message submitted:</p>
+          <p>{message}</p>
         </>
       ),
     });
