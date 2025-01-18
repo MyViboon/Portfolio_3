@@ -49,11 +49,13 @@ const HeroSection = () => {
         <div className="col-span-5 place-self-center mt-12 lg:mt-2">
           <div className="rounded-full bg-[#181818] w-[270px] h-[270px] lg:w-[380px] lg:h-[380px] relative">
             <Image
-              src="/images/viboon.png"
-              alt="viboon"
+              style={{ maxWidth: "200px" }}
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={200}
-              height={200}
+              src="/images/hero-image.png"
+              alt="Hero Image"
+              width={600} // กำหนดความกว้าง
+              height={400} // กำหนดความสูงให้ตรงกับอัตราส่วนเดิม
+              priority
             />
           </div>
         </div>
