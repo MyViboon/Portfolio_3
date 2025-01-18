@@ -61,13 +61,8 @@ const projectsData = [
 ];
 
 const CertSection = () => {
-  const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
-  const handleTagChange = (newTag) => {
-    setTag(newTag);
-  };
 
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
@@ -83,23 +78,7 @@ const CertSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-10 mb-1 md:mb-12">
         ใบประกาศที่รับรอง
       </h2>
-      {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
-      </div> */}
+
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
