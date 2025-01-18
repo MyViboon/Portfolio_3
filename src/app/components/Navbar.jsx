@@ -15,6 +15,10 @@ const navLinks = [
     path: "#projects",
   },
   {
+    title: "ใบรับรอง",
+    path: "#cert",
+  },
+  {
     title: "ติดต่อ",
     path: "#contact",
   },
