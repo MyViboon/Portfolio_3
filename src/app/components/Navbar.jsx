@@ -70,12 +70,12 @@
 
 // export default Navbar;
 
-("use client");
+"use client";
 import Link from "next/link";
-import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import { useState } from "react";
 
 const navLinks = [
   {
