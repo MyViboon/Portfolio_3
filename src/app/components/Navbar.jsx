@@ -2,8 +2,13 @@
 import Link from "next/link";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+<<<<<<< HEAD
 import { useState } from "react";
 import SideMenu from "./SideMenu";
+=======
+import MenuOverlay from "./MenuOverlay";
+import { useState } from "react";
+>>>>>>> 51525a1ccda50a41e1efa556ad666804abc65efb
 
 const navLinks = [
   {
